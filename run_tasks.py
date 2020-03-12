@@ -17,7 +17,7 @@ except FileNotFoundError as err:
 finally:
     print('-----Text file Read----')
 
-print(user_list)
+user_list[3].user_info()
 
 
 
