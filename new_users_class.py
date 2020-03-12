@@ -3,5 +3,5 @@ class New_users():
         self.name = name
 
     def user_info(self):
-        with open(self.name + '.txt', 'a+') as f:
-            f.write(self.name)
+        with open(self.name + '.txt', 'a') as f:
+            f.write('Name: '+self.name)
